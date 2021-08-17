@@ -31,6 +31,14 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'project_pictures/bakery_bytes.png',
+    title: 'Bakery Bytes Online Store',
+    info: `This project is a fake bakery store front built with React. This is a fullstack application with an ExpressJS backend.`,
+    info2: `It is fully deployed to Firebase, but some features are still under development.`,
+    url: 'https://bakery-bytes.web.app/',
+  },
+  {
+    id: nanoid(),
     img: 'project_pictures/pomodoro.png',
     title: 'React Pomodoro Timer',
     info: `This is a productivity timer using the Pomodoro Technique. The user can input their times and a second page
