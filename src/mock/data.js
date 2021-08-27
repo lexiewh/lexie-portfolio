@@ -44,7 +44,7 @@ export const projectsData = [
     info: `This is a productivity timer using the Pomodoro Technique. The user can input their times and a second page
             will show up to time the users work.`,
     info2: 'This application was deployed with GitHub Pages.',
-    url: 'https://lexiewh.github.io/react-pomodoro-app/',
+    url: 'https://react-pomodoro-app.web.app/',
     repo: 'https://github.com/lexiewh/react-pomodoro-app', // if no repo, the button will not show up
   },
   {
