@@ -43,9 +43,27 @@ export const projectsData = [
     title: 'React Pomodoro Timer',
     info: `This is a productivity timer using the Pomodoro Technique. The user can input their times and a second page
             will show up to time the users work.`,
-    info2: 'This application was deployed with GitHub Pages.',
+    info2: 'This application was deployed with Firebase.',
     url: 'https://react-pomodoro-app.web.app/',
     repo: 'https://github.com/lexiewh/react-pomodoro-app', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project_pictures/react-translate.png',
+    title: 'Translate App with React',
+    info: `A simple appliaction using Google's translate API.`,
+    info2: 'This application was deployed with Firebase.',
+    url: 'https://react-translate-342c1.web.app/',
+    repo: 'https://github.com/lexiewh/react-translate', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project_pictures/random_quote.png',
+    title: 'Random Quote Generator',
+    info: `Display a random quote, and generate a new one by clicking a button. Built with React, Bootstrap and Redux.`,
+    info2: 'This application was deployed with Firebase.',
+    url: 'https://random-quote-generator-1.web.app/',
+    repo: 'https://github.com/lexiewh/random-quote-generator', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -78,16 +96,6 @@ export const projectsData = [
     info2: '',
     url: '/',
     repo: 'https://github.com/lexiewh/spotify-archive', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project_pictures/todo.png',
-    title: 'Simple To Do',
-    info: `The Simple To Do application is the first application I built and deployed with React. It has limited capabilities, but
-            this is a good project to see the starting point of my education.`,
-    info2: 'GitHub Pages was used to deploy this application.',
-    url: 'https://lexiewh.github.io/react-todo/',
-    repo: 'https://github.com/lexiewh/react-todo', // if no repo, the button will not show up
   },
 ];
 
