@@ -13,7 +13,7 @@ jobs:
           JIRA_TOKEN: ${{ secrets.JiraApiToken }}
           JIRA_HOST: https://lexieportfolio.atlassian.net
           JIRA_USER: lexwhite028@gmail.com
-          JIRA_PROJECT: MDT
+          JIRA_PROJECT: MD
           JIRA_ISSUE_TYPE: Bug
           JIRA_WATCHERS: lexwhite028@gmail.com
           JIRA_RESTRICTED_COMMENT_ROLE: "Administrators"
