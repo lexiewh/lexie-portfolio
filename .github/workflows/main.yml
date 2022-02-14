@@ -16,4 +16,4 @@ jobs:
           JIRA_PROJECT: MDT
           JIRA_ISSUE_TYPE: Bug
           JIRA_WATCHERS: lexwhite028@gmail.com
-          JIRA_RESTRICTED_COMMENT_ROLE: "*"
+          JIRA_RESTRICTED_COMMENT_ROLE: administrators
