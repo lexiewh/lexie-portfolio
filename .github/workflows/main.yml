@@ -1,0 +1,20 @@
+name: GitHub Security Alerts for Jira
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+
+jobs:
+  syncSecurityAlerts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Sync security alerts to Jira issues"
+        uses: reload/github-security-jira@v1.x
+        env:
+          GH_SECURITY_TOKEN: ${{ secrets.GitHubSecurityToken }}
+          JIRA_TOKEN: ${{ secrets.JiraApiToken }}
+          JIRA_HOST: https://lexieportfolio.atlassian.net
+          JIRA_USER: lexwhite028@gmail.com
+          JIRA_PROJECT: MDT
+          JIRA_ISSUE_TYPE: Bug
+          JIRA_WATCHERS: lexwhite028@gmail.com
