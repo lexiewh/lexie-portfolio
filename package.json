@@ -52,7 +52,9 @@
     "prettier": "^2.5.1"
   },
   "resolutions": {
-    "ws": "^8.5.0"
+    "ws": "^8.5.0",
+    "node-fetch": "^3.2.0",
+    "immer": "^9.0.12"
   },
   "repository": {
     "type": "git",
