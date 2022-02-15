@@ -49,6 +49,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'project_pictures/markdown-preview.png',
+    title: 'Markdown Preview',
+    info: `Translate Markdown into formatted text.`,
+    info2: 'This application was deployed with Firebase.',
+    url: 'https://markdown-preview-3a662.web.app/',
+    repo: 'https://github.com/lexiewh/markdown-preview', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project_pictures/react-translate.png',
     title: 'Translate App with React',
     info: `A simple appliaction using Google's translate API.`,
@@ -64,17 +73,6 @@ export const projectsData = [
     info2: 'This application was deployed with Firebase.',
     url: 'https://random-quote-generator-1.web.app/',
     repo: 'https://github.com/lexiewh/random-quote-generator', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project_pictures/local_library.png',
-    title: 'Local Library',
-    info: `This application is a local library built with Express and a Mongo Database. This application is not an original idea
-            and was built with the link below.`,
-    info2:
-      'https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website',
-    url: 'https://express-local-library-028.herokuapp.com/',
-    repo: 'https://github.com/lexiewh/express-local-library', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
