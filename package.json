@@ -4,6 +4,7 @@
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "1.0.0",
   "license": "MIT",
+  "type": "commonjs",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
